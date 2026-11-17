@@ -1,0 +1,298 @@
+{
+  "title": "Agenda eventi culturali e iscrizioni",
+  "description": "Prototipo navigabile per organizzare il calendario della biblioteca, monitorare la disponibilità dei posti e gestire le iscrizioni con dati interamente inventati. Variante di prova 16.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo degli eventi culturali e delle iscrizioni in programma.",
+      "metrics": [
+        {
+          "label": "Eventi in programma",
+          "value": "12"
+        },
+        {
+          "label": "Iscrizioni attive",
+          "value": "86"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "34"
+        },
+        {
+          "label": "Eventi al completo",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Categoria",
+        "Data",
+        "Orario",
+        "Posti totali",
+        "Iscritti",
+        "Posti rimasti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Racconti di Lumo",
+          "Lettura",
+          "12/06/2026",
+          "17:00",
+          "24",
+          "18",
+          "6",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Laboratorio Vela di carta",
+          "Laboratorio",
+          "14/06/2026",
+          "10:30",
+          "16",
+          "16",
+          "0",
+          "Al completo"
+        ],
+        [
+          "Nubi tra le pagine",
+          "Incontro",
+          "18/06/2026",
+          "18:00",
+          "30",
+          "22",
+          "8",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Colori in viaggio",
+          "Laboratorio",
+          "21/06/2026",
+          "15:00",
+          "20",
+          "14",
+          "6",
+          "Iscrizioni aperte"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "eventi",
+      "title": "Eventi",
+      "description": "Consulta e filtra il calendario degli eventi, con capienza e posti rimasti.",
+      "metrics": [
+        {
+          "label": "Eventi totali",
+          "value": "12"
+        },
+        {
+          "label": "Iscrizioni aperte",
+          "value": "9"
+        },
+        {
+          "label": "Al completo",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Categoria",
+        "Data",
+        "Orario",
+        "Posti totali",
+        "Iscritti",
+        "Posti rimasti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Racconti di Lumo",
+          "Lettura",
+          "12/06/2026",
+          "17:00",
+          "24",
+          "18",
+          "6",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Laboratorio Vela di carta",
+          "Laboratorio",
+          "14/06/2026",
+          "10:30",
+          "16",
+          "16",
+          "0",
+          "Al completo"
+        ],
+        [
+          "Nubi tra le pagine",
+          "Incontro",
+          "18/06/2026",
+          "18:00",
+          "30",
+          "22",
+          "8",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Colori in viaggio",
+          "Laboratorio",
+          "21/06/2026",
+          "15:00",
+          "20",
+          "14",
+          "6",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Storie del Bosco Menta",
+          "Lettura",
+          "24/06/2026",
+          "16:30",
+          "18",
+          "11",
+          "7",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Piccolo atlante di Vela",
+          "Incontro",
+          "27/06/2026",
+          "11:00",
+          "28",
+          "28",
+          "0",
+          "Al completo"
+        ],
+        [
+          "Suoni e parole",
+          "Laboratorio",
+          "30/06/2026",
+          "17:30",
+          "14",
+          "9",
+          "5",
+          "Iscrizioni aperte"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Categoria",
+        "Data",
+        "Orario",
+        "Posti totali",
+        "Iscritti",
+        "Posti rimasti",
+        "Stato"
+      ]
+    },
+    {
+      "id": "iscrizioni",
+      "title": "Iscrizioni",
+      "description": "Registra un'iscrizione e controlla l'assegnazione dei posti per ciascun evento.",
+      "metrics": [
+        {
+          "label": "Iscrizioni attive",
+          "value": "86"
+        },
+        {
+          "label": "In attesa",
+          "value": "5"
+        },
+        {
+          "label": "Posti assegnati",
+          "value": "86"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Partecipante",
+        "Data iscrizione",
+        "Posti richiesti",
+        "Stato",
+        "Riferimento"
+      ],
+      "rows": [
+        [
+          "Racconti di Lumo",
+          "Nubi di Rame",
+          "02/06/2026",
+          "1",
+          "Confermata",
+          "IS-1601"
+        ],
+        [
+          "Racconti di Lumo",
+          "Vela Chiara",
+          "03/06/2026",
+          "2",
+          "Confermata",
+          "IS-1602"
+        ],
+        [
+          "Laboratorio Vela di carta",
+          "Lumo d'Orsa",
+          "04/06/2026",
+          "1",
+          "Confermata",
+          "IS-1603"
+        ],
+        [
+          "Nubi tra le pagine",
+          "Menta Lunare",
+          "05/06/2026",
+          "1",
+          "In attesa",
+          "IS-1604"
+        ],
+        [
+          "Colori in viaggio",
+          "Rame di Vela",
+          "06/06/2026",
+          "2",
+          "Confermata",
+          "IS-1605"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Partecipante",
+        "Data iscrizione",
+        "Posti richiesti",
+        "Stato",
+        "Riferimento"
+      ]
+    },
+    {
+      "id": "nuovo-evento",
+      "title": "Nuovo evento",
+      "description": "Inserisci un evento nel calendario con capienza e stato delle iscrizioni.",
+      "metrics": [],
+      "columns": [
+        "Evento",
+        "Categoria",
+        "Data",
+        "Orario",
+        "Posti totali",
+        "Iscritti",
+        "Posti rimasti",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Evento",
+        "Categoria",
+        "Data",
+        "Orario",
+        "Posti totali",
+        "Iscritti",
+        "Posti rimasti",
+        "Stato"
+      ]
+    }
+  ]
+}
